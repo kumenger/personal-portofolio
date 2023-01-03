@@ -6,9 +6,11 @@
     position: fixed;
     letter-spacing: 2px;
     width: 100%;
+    height: 85px;
     color: snow;
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid red;
 }
 
 ul {
@@ -44,6 +46,7 @@ a:hover{
     .header-main {
         flex-direction: column;
         align-items: flex-start;
+        height: 185px;
     }
     .contactinfo ul li{
       
@@ -56,6 +59,9 @@ a:hover{
     .abouttext h3{
         font-size: 1px;
        
+    }
+    main {
+    padding-top: 95px;
     }
 
  
@@ -93,14 +99,14 @@ footer{
     margin-top: auto;
 }
 main{
-   margin-top: 200px;
- 
+
+ margin-top: 95px;
  
 }
 #aboutme {
     display: grid;
-    margin-top: 150px;
-    padding: 50px;
+   
+
     border: 2px red solid;
 }
 .about-holder{
@@ -144,4 +150,12 @@ body{
 .cotactholder h1{
     font-size: large;
 }
+ .headerimg {
+     margin-top: 200px;
+    background-color: aqua;
+   
+ }
+ header{
+    border: solid 3px blueviolet;
+ }
 
