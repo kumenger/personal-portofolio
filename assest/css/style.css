@@ -45,6 +45,14 @@ a:hover{
         flex-direction: column;
         align-items: flex-start;
     }
+    .contactinfo ul li{
+      
+     
+        font-size: medium;
+    }
+    .cotactholder h1{
+        font-size: medium;
+    }
 
  
 }
@@ -68,5 +76,39 @@ h3::before {
     width: max-content;
     border-radius: 0 50px 50px 0;
 }
+#footer{
+ display: flex;
+ justify-content: space-between;
+ padding: 20px;
+ background: linear-gradient(#f0cccc, #a5aae4);;
+  color: rgb(10, 112, 112);
+  letter-spacing: 2px;
+}
 
+footer{
+    margin-top: auto;
+}
+main{
+   
+ 
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.contactinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contactinfo li{
+    padding-right:50px;
+    list-style: none;
+    font-size: x-large;
+    margin-bottom: 5px;    
+}
+.cotactholder h1{
+    font-size: x-large;
+}
 
