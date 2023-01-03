@@ -62,6 +62,9 @@ a:hover{
     }
     main {
     padding-top: 95px;
+
+    
+   
     }
 
  
@@ -99,8 +102,8 @@ footer{
     margin-top: auto;
 }
 main{
-
- margin-top: 95px;
+    padding: 20px;
+    margin-top: 95px;
  
 }
 #aboutme {
@@ -111,12 +114,19 @@ main{
 }
 .about-holder{
     display: grid;
-    grid-template-columns: 0.5fr 4fr;
+    grid-template-columns: 0.3fr 1fr 1fr;
     justify-content: space-between;
-    padding: 0px;
+    grid-template-areas: "side main";
+    margin-top: 89px;
+    border-right: 3px darkgray solid;
 }
 .abouttext{
-    border-right: 3px darkgray solid;
+    grid-area: side;
+    border-right: 5px solid;;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    margin: 5px;
 }
 
 .abouttext h3{
@@ -128,7 +138,12 @@ main{
     color: rgb(11, 23, 87);
 }
 .aboutdes{
-    padding-left: 15px;
+    grid-area: main;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+  grid-column: span 2;
+  margin: 5px;
 }
 
 body{
@@ -158,4 +173,46 @@ body{
  header{
     border: solid 3px blueviolet;
  }
+ .work-holder{
+ 
+    height: 80vh;
+    margin-top: 20px;
+    border: 2px solid paleturquoise;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr 1fr;
+    grid-template-areas: 
+        "side main main"
+        "side main main"
+        "side p1 p2"
+        "side p3 p4"
+    
+ }
+ .projects{
+    
+    background-color: #a5aae4;
+    margin: 5px;
+  
+ }
+ .sidebar{
+    border-right: 5px solid;;
+    grid-area: side;
+ }
+ .main-work{
+    grid-area: main;
+   grid-row: span 2;
+ }
+ .project1{
+    grid-area: p1;
+ }
+ .project2{
+    grid-area: p2;
+ }
+ .project3{
+    grid-area: p3;
+ }
+ .project4{
+    grid-area: p4;
+ }
+
+
 
