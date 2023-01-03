@@ -2,9 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    background-color: rgb(48, 95, 90);
+    background: linear-gradient(#f0cccc, #a5aae4);;
     position: fixed;
+    letter-spacing: 2px;
     width: 100%;
     color: snow;
     font-size: medium;
@@ -15,16 +15,21 @@ ul {
     display: flex;
 
 }
+body{
+    background-color: rgb(232, 234, 236);
+}
 
 a {
+    letter-spacing: 2px;
     padding-right: 20px;
     margin-bottom: 3px;
-    color: rgb(245, 240, 221);
+    color: rgb(42, 56, 66);
     font-size: larger;
+    
 }
 
 a:hover{
-    color: black;
+    color: snow;
 }
 * {
     margin: 0;
