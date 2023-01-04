@@ -2,15 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(#f0cccc, #a5aae4);;
+    background: rgb(27, 37, 40);
     position: fixed;
     letter-spacing: 2px;
     width: 100%;
-    height: 85px;
-    color: snow;
+    height: 65px;
+    color: rgb(20, 19, 19);
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 2px solid red;
+   
 }
 
 ul {
@@ -18,14 +18,16 @@ ul {
 
 }
 body{
-    background-color: rgb(232, 234, 236);
+    
+
+
 }
 
 a {
  
     padding-right: 20px;
     margin-bottom: 3px;
-    color: rgb(17, 107, 172);
+    color:  rgb(33, 110, 110) ;
     font-size: larger;
     
 }
@@ -62,10 +64,10 @@ a:hover{
     }
     main {
     padding-top: 95px;
-
-    
+  
    
     }
+    
 
  
 }
@@ -82,12 +84,13 @@ a:hover{
 }
 
 .name-holder {
-    padding: 20px;
-    background-color: rgb(48, 73, 110);
+    padding: 2px;
+    background-color: rgb(33, 110, 110) ;
     margin-bottom: 10px;
     margin-top: 10px;
     width: max-content;
     border-radius: 0 50px 50px 0;
+ 
 }
 #footer{
  display: flex;
@@ -102,23 +105,24 @@ footer{
     margin-top: auto;
 }
 main{
-    padding: 20px;
-    margin-top: 95px;
+  
+    margin-top: 65px;
+
  
 }
 #aboutme {
     display: grid;
    
 
-    border: 2px red solid;
+   
 }
 .about-holder{
     display: grid;
-    grid-template-columns: 0.3fr 1fr 1fr;
-    justify-content: space-between;
+    grid-template-columns: 0.6fr 1fr 1fr;
+ 
     grid-template-areas: "side main";
-    margin-top: 89px;
-    border-right: 3px darkgray solid;
+   
+   
 }
 .abouttext{
     grid-area: side;
@@ -127,6 +131,7 @@ main{
      align-items: center;
      justify-content: center;
     margin: 5px;
+    padding: 3px;
 }
 
 .abouttext h3{
@@ -135,7 +140,7 @@ main{
 }
 .about-holder p{
     text-align:left;
-    color: rgb(11, 23, 87);
+    color: rgb(45, 69, 201);
 }
 .aboutdes{
     grid-area: main;
@@ -150,6 +155,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: rgb(189, 194, 194);
 }
 .contactinfo{
     display: flex;
@@ -171,15 +177,15 @@ body{
    
  }
  header{
-    border: solid 3px blueviolet;
+   
  }
  .work-holder{
  
     height: 80vh;
     margin-top: 20px;
-    border: 2px solid paleturquoise;
+   
     display: grid;
-    grid-template-columns: 0.3fr 1fr 1fr;
+    grid-template-columns: 0.6fr 1fr 1fr;
     grid-template-areas: 
         "side main main"
         "side main main"
@@ -188,10 +194,17 @@ body{
     
  }
  .projects{
-    
+    border: 10px solid rgb(33, 110, 110);
     background-color: #a5aae4;
     margin: 5px;
+    display: flex;
+    align-items:flex-end;
+    padding-bottom: 5px;
   
+ }
+ .work-holder h4{
+    background-color: rgb(33, 110, 110) ;
+    font-size: xx-large;
  }
  .sidebar{
     border-right: 5px solid;;
@@ -200,19 +213,43 @@ body{
  .main-work{
     grid-area: main;
    grid-row: span 2;
+ background-image: url('/assest//images/surf.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
  }
  .project1{
     grid-area: p1;
+    background-image: url('/assest//images/led.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-repeat: no-repeat;
+
  }
  .project2{
     grid-area: p2;
+    background: url('/assest/images/calculater.jpg');
+    background-size: cover;
  }
  .project3{
     grid-area: p3;
+    background-image: url("/assest//images/pastel.jpg");
+    background-size: cover;
  }
  .project4{
+    background-image: url('/assest//images/run.jpg');
     grid-area: p4;
  }
-
+.logoholder{
+ 
+    height: 80px;
+   
+    background-image: url('/assest/images/headerblue.jpeg');
+  
+}
+section{
+   
+    padding: 35px;
+}
 
 
