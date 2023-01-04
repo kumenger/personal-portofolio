@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(27, 37, 40);
+    background: rgb(67, 78, 81);
     position: fixed;
     letter-spacing: 2px;
     width: 100%;
@@ -27,7 +27,7 @@ a {
  
     padding-right: 20px;
     margin-bottom: 3px;
-    color:  rgb(33, 110, 110) ;
+    color:  rgb(130, 130, 142);;
     font-size: larger;
     
 }
@@ -85,19 +85,22 @@ a:hover{
 
 .name-holder {
     padding: 2px;
-    background-color: rgb(33, 110, 110) ;
+    background-color: rgb(3, 3, 53);
     margin-bottom: 10px;
     margin-top: 10px;
     width: max-content;
     border-radius: 0 50px 50px 0;
  
 }
-#footer{
- display: flex;
- justify-content: space-between;
- padding: 20px;
- background: linear-gradient(#f0cccc, #a5aae4);;
-  color: rgb(10, 112, 112);
+.name-holder h3{
+    color: goldenrod;
+}
+.footer-holder{
+ display:grid;
+ grid-template-columns: 0.4fr 0.5fr 0.5fr 0.5fr 0.5fr;
+ grid-template-areas: "conatc phone email github freecode";
+ margin-right: 20px;
+  
   letter-spacing: 2px;
 }
 
@@ -168,9 +171,7 @@ body{
     font-size: large;
     margin-bottom: 5px;    
 }
-.cotactholder h1{
-    font-size: large;
-}
+
  .headerimg {
      margin-top: 200px;
     background-color: aqua;
@@ -181,7 +182,7 @@ body{
  }
  .work-holder{
  
-    height: 80vh;
+    height:80vh;
     margin-top: 20px;
    
     display: grid;
@@ -194,7 +195,8 @@ body{
     
  }
  .projects{
-    border: 10px solid rgb(33, 110, 110);
+    border-style: inset;
+    border: 5px solid rgb(3, 3, 53);
     background-color: #a5aae4;
     margin: 5px;
     display: flex;
@@ -252,6 +254,22 @@ body{
 section{
    
     padding: 35px;
+}
+.conatct{
+   
+        grid-area: conatc;
+        border-right: 5px solid;;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+        
+      
+    
+}
+.phone{
+  margin-left: 10px;
+ 
+   
 }
 
 
