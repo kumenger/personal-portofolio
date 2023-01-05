@@ -259,7 +259,7 @@ header {}
 .main-work {
     grid-area: main;
     grid-row: span 2;
-    background-image: url('/assest//images/surf.jpg');
+    background-image: url('https://i.ibb.co/55NvM5b/surf.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -267,7 +267,7 @@ header {}
 
 .project1 {
     grid-area: p1;
-    background-image: url('/assest//images/led.jpg');
+    background-image: url('https://i.ibb.co/3rtKrJk/led.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-repeat: no-repeat;
@@ -276,26 +276,27 @@ header {}
 
 .project2 {
     grid-area: p2;
-    background: url('/assest/images/calculater.jpg');
+    background: url('https://i.ibb.co/D7dWyQ4/calculater.jpg');
     background-size: cover;
 }
 
 .project3 {
     grid-area: p3;
-    background-image: url("/assest//images/pastel.jpg");
+    background-image: url("https://i.ibb.co/TcrCWsW/pastel.jpg");
     background-size: cover;
 }
 
 .project4 {
-    background-image: url('/assest//images/run.jpg');
+    background-image: url('https://i.ibb.co/wW0FMxm/run.jpg');
     grid-area: p4;
 }
 
 .logoholder {
    color: rgb(213, 19, 19);
     height: 90px;
+    font-weight: bold;
     padding-left: 10px;
-    background-image: url('/assest/images/headerblue.jpeg');
+    background-image: url('https://i.ibb.co/wC0C7q1/headerblue.webp');
 
 }
 
@@ -343,4 +344,7 @@ header {}
 }
 section{
     margin:  50px ;
+}
+.aboutmelink {
+    font-size: 15px;
 }
