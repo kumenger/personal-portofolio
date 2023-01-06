@@ -358,6 +358,7 @@ section{
 }
 .aboutmelink {
     font-size: 15px;
+    color: #14142b;
 }
 .projects:hover{
     transform: scale(1.1);
