@@ -2,15 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(#59595c, #14142b);
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #3f87a6);
     position: fixed;
     letter-spacing: 2px;
     width: 100%;
     height: 65px;
     color: rgb(20, 19, 19);
   
+  
    
-    opacity: 1;
+   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -28,7 +29,7 @@ body {}
     margin-bottom: 3px;
     color: rgb(230, 224, 228);
     
-    font-size: 20px;
+    font-size: 15px;
     letter-spacing: 2px;
 
 }
@@ -43,14 +44,14 @@ a:hover {
 
 @media screen and (max-width:768px) {
     
+   .pcidesholder{
    
-    .profilepic {
-        position:absolute;
-        top: 0px;
-        left: 50%;
     
-      
-    }
+   
+
+
+   }
+    
    
     ul {
 
@@ -60,6 +61,7 @@ a:hover {
     .header-main {
         flex-direction: column;
         align-items: flex-start;
+        height: 150px;
 
     }
 a{
@@ -140,16 +142,17 @@ main {
 
 .about-holder {
     display: grid;
-    grid-template-columns: 0.2fr 0.5fr 1.8fr;
+    grid-template-columns: 0.2fr 2.3fr;
 
-    grid-template-areas: "side pic main";
+    grid-template-areas: "side pcidesholder";
+    grid-template-rows: max-content;
 
 
 }
 
 .abouttext {
     grid-area: side;
-    border-right: 5px solid rgb(123, 50, 122);
+    border-right: 5px solid;
     padding: 5px;
     margin-left: 25px;
     display: flex;
@@ -169,8 +172,7 @@ main {
 .aboutdes {
   
     grid-area: main;
-    display: flex;
-    align-items: center;
+    padding: 20px;
 
 
 
@@ -182,7 +184,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
   
-    background-color:rgb(187, 239, 239)
+    background-color:  linear-gradient(0.25turn, #3f87a6, #ebf8e1, #3f87a6);
 }
 
 
@@ -245,10 +247,10 @@ header {}
     grid-area: side;
 }
 
-.work-holder h4 {
+.work-holder a {
 
     background-color: rgb(84, 132, 132);
-    font-size: xx-large;
+    font-size: x-large;
     padding: 5px;
 }
 
@@ -304,12 +306,15 @@ header {}
 }
 
 .logoholder {
-   color: rgb(149, 107, 157);
-    height: 90px;
-    text-align: left;
+   color: rgb(111, 80, 117);
+    height: 40px;
+    text-align: right;
     font-weight: bold;
     padding-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
     background-image: url('https://i.ibb.co/wC0C7q1/headerblue.webp');
+    background-size: cover;
 
 }
 
@@ -354,7 +359,7 @@ header {}
 
 
 section{
- margin: 50px;
+  margin: 2% 5% 2% 5% ;
 }
 .aboutmelink {
     font-size: 15px;
@@ -362,4 +367,12 @@ section{
 }
 .projects:hover{
     transform: scale(1.1);
+}
+.pcidesholder{
+
+    width: 800px;
+  display: grid;
+  grid-template-columns: 0.5 1.5;
+  grid-template-areas: "pic main";
+
 }
