@@ -64,7 +64,11 @@ a{
     font-size: smaller;
 }
 .pcidesholder{
-    display: block;
+display: block;
+}
+.sidetext h3 {
+    font-size: 2px;
+   
 }
 
 
@@ -80,6 +84,9 @@ a{
 
     .contact-details {
         flex-direction: column;
+    }
+    .logoholder{
+        margin-top: 100px;
     }
 
 
@@ -113,15 +120,16 @@ a{
 }
 
 .footer-holder {
-    display: grid;
-    grid-template-columns: 0.3fr 2.1fr;
-    grid-template-areas: "contact contact-details";
+
 
 
 
 }
 
-footer {
+#footer {
+    display: grid;
+    grid-template-columns: 0.3fr 2.1fr;
+    grid-template-areas: "contact contact-details";
     margin-top: auto;
     margin-bottom: 0px;
 }
@@ -138,7 +146,7 @@ main {
 .about-holder {
     display: grid;
     grid-template-columns: 0.3fr 2.1fr;
-
+   
     grid-template-areas: "side pcidesholder";
     grid-template-rows: max-content;
 
@@ -149,15 +157,18 @@ main {
     grid-area: side;
     border-right: 5px solid;
     padding: 5px;
-    margin: 5px;
-    margin-left: 25px;
+;
+   
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+   
    
   
 }
-
+.sidetext h3{
+    font-size: 20px;
+   
+}
 
 
 .about-holder p {
@@ -210,15 +221,18 @@ header {}
     box-sizing: border-box;
 }
 .project-holder{
-    
+    margin-left: 5%;
+    margin-left: 5%;
     display: grid;
-    grid-template-columns: 1.3fr 1fr ;
+    grid-template-columns: 1.2fr 1.2fr ;
     grid-template-areas: 
+    
     "main main"
     "p1 p2"
     "p3 p4";
-    width: max-content;
-    margin: 0 5% 0 5% ;
+    width: 70%;
+   
+    grid-gap:10px;
   
 }
 
@@ -235,8 +249,8 @@ header {}
 
 }
 .aboutwor{
-    margin: 5px;
-    margin-left: 25px;
+  
+   
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -259,7 +273,7 @@ header {}
     grid-area: main;
   
     height: 433px;
-    width: 800px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('https://i.ibb.co/mJFmZqN/marketing.jpg');
@@ -273,7 +287,7 @@ header {}
     background-size: cover;
     background-repeat: no-repeat;
     background-repeat: no-repeat;
-    width: 325px;
+    width: 100%;
     height: 246px;
 
 }
@@ -283,7 +297,7 @@ header {}
     background: url('https://i.ibb.co/QHH8Vf0/calculater.jpg');
     background-size: cover;
   
-    width: 325px;
+    width: 100%;
     height: 246px;
 }
 
@@ -291,7 +305,7 @@ header {}
     grid-area: p3;
     background-image: url("https://i.ibb.co/GVDN7sf/pastel.jpg");
     background-size: cover;
-    width: 325px;
+    width: 100%;
     height: 246px;
    
 }
@@ -299,19 +313,23 @@ header {}
 .project4 {
     background-image: url('https://i.ibb.co/Rbq9Cw2/run.jpg');
     grid-area: p4;
-    width: 325px;
+    width: 100%;
     height: 246px;
     
 }
 
+
 .logoholder {
+   
    color: rgb(226, 213, 229);
-    height: 80px;
+    height: 100px;
     padding: 5px;
+    width: 100%;
     text-align: right;
     font-weight: bold;
+    
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: flex-end;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     
@@ -342,11 +360,11 @@ header {}
 .contact {
     grid-area: contact;
     border-right: 5px solid;
-    margin-left: 25px;
+
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin: 5px;
+ 
+   
     padding: 5px;
 }
 
@@ -354,14 +372,15 @@ header {}
     grid-area: contact-details;
     display: flex;
     justify-content: space-around;
-    margin: 5px;
-    margin-left: 25px;
+ 
     column-span: 2;
+    margin-left: 5%;
+    margin-left: 5%;
 }
 
 
 section{
-  margin: 2% 0% 2% 8% ;
+  margin: 2% 0% 2% 5% ;
 }
 .aboutmelink {
     font-size: 15px;
@@ -372,7 +391,8 @@ section{
 }
 .pcidesholder{
 
-    width: 800px;
+    margin-left: 5%;
+    margin-left: 5%;
   display: grid;
   grid-template-columns: 0.5 1.5;
   grid-template-areas: "pic main";
